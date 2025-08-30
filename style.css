@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: hsl(221, 100%, 96%);
+}
+
+.card-component {
+    display: flex;
+    width: 600px;
+    box-shadow: 8px 8px 10px hsl(221, 49%, 92%);
+        border-radius: 20px;
+background-color: white;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 35px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.head1 {
+    color: hsl(241, 100%, 89%);
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    color: white;
+    border-radius: 100%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+h2 {
+    color: white;
+}
+
+.main {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+#main2 {
+    color: hsl(241, 100%, 89%);
+}
+
+.para {
+    color: hsl(241, 100%, 89%);
+    width: 14.5rem;
+    text-align: center;
+}
+
+.card2 {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.data-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+    padding: 14px;
+    border-radius: 10px;
+    width: 13rem;
+    font-weight: 600;
+}
+
+.left-value {
+    display: flex;
+    gap: 10px;
+}
+
+.memory {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.1);
+    font-weight: 600;
+    padding: 14px;
+    border-radius: 10px;
+    width: 13rem;
+}
+
+.verbal {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.1);
+    font-weight: 600;
+    padding: 14px;
+    border-radius: 10px;
+    width: 13rem;
+}
+
+.visual {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.1);
+    font-weight: 600;
+    padding: 14px;
+    border-radius: 10px;
+    width: 13rem;
+    gap: 1rem;
+}
+
+.black {
+    color: black;
+    font-weight: 700;
+}
+
+.grey {
+    color: hsla(0, 0%, 52%, 0.897);
+}
+
+button {
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    width: 15rem;
+    margin-top: 0.7rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
